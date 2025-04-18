@@ -1,0 +1,94 @@
+[
+    {
+        "model": "XceptionBased",
+        "dataset": "synthetic_dataset",
+        "optimizer": {
+            "name": "Adam",
+            "params": {
+                "lr": 0.001,
+                "betas": [
+                    0.9,
+                    0.999
+                ],
+                "eps": 1e-08,
+                "weight_decay": 0,
+                "amsgrad": false,
+                "maximize": false,
+                "foreach": null,
+                "capturable": false,
+                "differentiable": false,
+                "fused": null
+            }
+        },
+        "train_loss": [
+            0.021770961237185946,
+            0.02172670216346327
+        ],
+        "train_acc": [
+            50.69870844802033,
+            50.29642176582681
+        ],
+        "val_loss": [
+            0.03290879362470365,
+            0.021906404643869115
+        ],
+        "val_acc": [
+            50.04269854824936,
+            50.04269854824936
+        ],
+        "test_loss": [
+            0.03159205635784976,
+            0.022002096675464704
+        ],
+        "test_acc": [
+            49.954669084315505,
+            49.954669084315505
+        ]
+    },
+    {
+        "model": "XceptionBased",
+        "dataset": "synthetic_dataset",
+        "optimizer": {
+            "name": "Adam",
+            "params": {
+                "lr": 0.001,
+                "betas": [
+                    0.9,
+                    0.999
+                ],
+                "eps": 1e-08,
+                "weight_decay": 0,
+                "amsgrad": false,
+                "maximize": false,
+                "foreach": null,
+                "capturable": false,
+                "differentiable": false,
+                "fused": null
+            }
+        },
+        "train_loss": [
+            0.021780902466581153,
+            0.02173000302780187
+        ],
+        "train_acc": [
+            50.98454372221046,
+            49.58712682616981
+        ],
+        "val_loss": [
+            0.022024045175817866,
+            0.021901203107874582
+        ],
+        "val_acc": [
+            50.213492741246796,
+            47.05380017079419
+        ],
+        "test_loss": [
+            0.022126269416169263,
+            0.02198793443894235
+        ],
+        "test_acc": [
+            49.50135992747053,
+            51.13327289211242
+        ]
+    }
+]
